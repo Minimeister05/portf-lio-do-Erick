@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00509e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #00509e;
+}
+
+.materias {
+    list-style: none;
+    padding: 0;
+}
+
+.materias li {
+    background: #d4e6f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00509e;
+    border: 1px solid #aacde8;
+}
+
+.descricao {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.conclusao {
+    margin-top: 30px;
+    background: #f1f8ff;
+    padding: 15px;
+    border-left: 5px solid #00509e;
+}
